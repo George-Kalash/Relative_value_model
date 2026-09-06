@@ -203,6 +203,18 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Frontend and local market data
+node_modules/
+test-results/
+playwright-report/
+!frontend/src/lib/
+*.tsbuildinfo
+.env.*
+!.env.example
+.DS_Store
+data/cache/*
+!data/cache/.gitkeep
+
 # Ruff stuff:
 .ruff_cache/
 
